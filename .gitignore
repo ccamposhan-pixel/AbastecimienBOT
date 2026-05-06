@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+
+# Pytest / sandbox artifacts (pueden quedar con ACL bloqueada)
+.pytest_cache/
+.pytest-tmp/
+pytest_tmp/
+pytest-cache-files-*/
+
+# Output folders
+reports/
+hola_multiagent/reports/
+hola_multiagent/artifacts/
+
+# Data (puede contener info sensible)
+data/
+hola_multiagent/data/
+hola_multiagent/analysis/
+
+# Local env
+.env
+
+# Tooling local
+.claude/
