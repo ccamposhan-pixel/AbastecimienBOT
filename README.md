@@ -103,3 +103,14 @@ El veredicto del jefe puede ser:
 - incorporar aprobacion humana de homologaciones de producto;
 - usar un LLM para explicar recomendaciones y generar planes de negociacion;
 - agregar dashboard web para revisar oportunidades y marcar decisiones.
+
+## Organización de reportes
+
+Para mantener la carpeta eports/ ordenada por contexto, puedes ejecutar:
+
+`powershell
+powershell -ExecutionPolicy Bypass -File tools/organize_reports.ps1 -ReportsRoot reports
+`
+
+Esto mueve archivos a subcarpetas como eports/andes/, eports/vendors/, eports/procurement_agent/.
+

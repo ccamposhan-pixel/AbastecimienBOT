@@ -1,4 +1,4 @@
-__pycache__/
+﻿__pycache__/
 *.pyc
 
 # Pytest / sandbox artifacts (pueden quedar con ACL bloqueada)
